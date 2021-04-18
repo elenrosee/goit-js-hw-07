@@ -9,7 +9,6 @@ refs.renderBtn.addEventListener('click', () => createBoxes(refs.input.value));
 refs.destroyBtn.addEventListener('click', destroyBoxes);
 
 function destroyBoxes() {
-  refs.input.value = '';
   refs.boxes.innerHTML = '';
 }
 
