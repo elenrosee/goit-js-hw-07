@@ -6,6 +6,5 @@ const refs = {
 refs.input.addEventListener('input', onInputChange);
 
 function onInputChange(event) {
-  console.log(event.currentTarget.value);
   refs.greetingName.textContent = event.currentTarget.value;
 }
